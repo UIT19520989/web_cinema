@@ -1,0 +1,41 @@
+.listOps {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  .item {
+    padding-bottom: 5px;
+    .icon {
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 30px;
+      width: 100%;
+    }
+  }
+  .translateItem {
+    padding: 4px 0;
+    .translate {
+      width: 28px;
+      height: 26px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      border: 1px solid #fff;
+      border-radius: 3px;
+      padding: 3px 5px;
+      transition: linear 0.1s;
+      color: #fff;
+      font-weight: 600;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      &:hover {
+        cursor: pointer;
+        color: var(--mainColor);
+        background-color: #fff;
+      }
+    }
+  }
+  .option {
+    margin-left: 30px;
+  }
+}

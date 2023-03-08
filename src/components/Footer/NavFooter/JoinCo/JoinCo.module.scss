@@ -1,0 +1,9 @@
+.join {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  .img {
+    text-align: right;
+    margin-bottom: 32px;
+  }
+}

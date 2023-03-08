@@ -1,0 +1,25 @@
+.hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(var(--tmdbDarkBlue), 0.8) 0%,
+      rgba(var(--tmdbDarkBlue), 0) 100%
+    ),
+    url("../../../assets/hero/theboys.jpg");
+
+  min-height: 300px;
+  height: calc(100vh / 2.5);
+  max-height: 360px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  background-position: 50% 50%;
+  margin-top: 64px;
+}

@@ -1,0 +1,16 @@
+.rounded {
+  border-color: #fff;
+  background-color: #fff;
+  color: #01b4e4;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: inline-block;
+  word-wrap: break-word;
+  white-space: normal;
+  text-transform: uppercase;
+
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 8px 16px;
+  transition: linear 0.1s;
+}

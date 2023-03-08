@@ -1,0 +1,33 @@
+.trending {
+  background-image: url("../../../assets/trending/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg");
+  background-position: 50% 200px;
+  background-size: var(--maxPrimaryPageWidth);
+  background-repeat: no-repeat;
+  max-width: var(--maxPrimaryPageWidth);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 0;
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .contentWrapper {
+      max-width: var(--maxPrimaryPageWidth);
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+      flex-wrap: wrap;
+      padding-top: 30px;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.contentHeroWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  .contentHero {
+    margin-top: 32px;
+    max-width: var(--maxPrimaryPageWidth);
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .title {
+      width: 100%;
+      margin-bottom: 20px;
+      h2 {
+        font-size: 3em;
+        font-weight: 700;
+        line-height: 1;
+      }
+      h3 {
+        font-size: 2em;
+        font-weight: 600;
+        margin: 0;
+      }
+    }
+    .search {
+      width: 100%;
+    }
+  }
+}
